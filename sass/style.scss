@@ -1,0 +1,29 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/title";
+@import "blocks/latest";
+@import "blocks/general";
+@import "blocks/popular";
+@import "blocks/publication";
+@import "blocks/subtitle";
+@import "blocks/article";
+@import "blocks/line";
+@import "blocks/video";
+@import "blocks/news";
+@import "blocks/participant";
+@import "blocks/trending";
+@import "blocks/media";

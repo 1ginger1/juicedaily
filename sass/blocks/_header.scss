@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    height: 90px;
+    &__logo {
+        display: block;
+        padding-left: 50px;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 530px;
+        padding: 0;
+        list-style-type: none;
+        &-item {
+            font-weight: 400;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    &__search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        background-color: #FF553C;
+    }
+}
+.hamburger {
+    display: none;
+}

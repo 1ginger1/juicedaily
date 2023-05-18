@@ -1,0 +1,12 @@
+.video {
+    padding: 50px 54px;
+    background: url(../img/video.jpg) bottom
+     (center / cover ) no-repeat;
+    &__title {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+    }  
+}

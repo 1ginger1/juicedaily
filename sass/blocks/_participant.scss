@@ -1,0 +1,25 @@
+.participant {
+    padding: 40px 0 40px 40px;
+    &__item {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        margin-right: 15px;
+    }
+    &-info {
+        &__name {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 26px;
+            color: #273240;
+        }
+        &__article {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            color: rgba($color: #2C3A4B, $alpha: 0.5);
+        }
+    }
+}

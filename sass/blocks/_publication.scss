@@ -1,0 +1,19 @@
+.publication {
+    color: rgba(18, 18, 18, 0.3);
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    &__name {
+        font-weight: 500;
+        color: #F5556E;
+        &_blue {
+            color: #40B2C9;
+        }
+    }
+    &__time {
+        font-weight: 400;
+        color: rgba(18, 18, 18, 0.3);
+    }
+}

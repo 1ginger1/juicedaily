@@ -1,0 +1,53 @@
+.article {
+    &__img {
+        display: block;
+    }
+    &__content {
+        padding: 40px 40px 36px 40px;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        width: 290px;
+        font-weight: 500;
+    }
+    &__descr {
+        width: 290px;
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: rgba($color: #121212, $alpha: 0.7);
+    }
+    &__line {
+        width: 330px;
+    }
+    &-publication {
+        padding: 20px 40px 24px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__autor {
+            display: flex;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__img {
+            display: block;
+            margin-right: 8px;
+            width: 28px;
+            height: 28px;
+        }
+        &__name {
+            font-weight: 400;
+            font-size: 13px;
+            color: #273240;
+        }
+        &__date {
+            font-weight: 400;
+            font-size: 12px;
+            color: rgba($color: #2C3A4B, $alpha: 0.5);
+        }
+    }
+}

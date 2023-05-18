@@ -1,0 +1,30 @@
+.trending {
+    min-height: 265px;
+    padding: 50px 70px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 32px;
+    }
+    &__item {
+        width: 340px;
+        display: flex;
+    }
+    &__img {
+        margin-right: 20px;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #020202;
+    }
+    &__descr {
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: rgba($color: #020202, $alpha: 0.5);
+    }
+}
